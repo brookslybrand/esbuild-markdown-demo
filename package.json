@@ -1,0 +1,27 @@
+{
+  "name": "esbuild-markdown-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild src/app.tsx --bundle --minify --sourcemap --outdir=public/build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brookslybrand/esbuild-markdown-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brookslybrand/esbuild-markdown-demo/issues"
+  },
+  "homepage": "https://github.com/brookslybrand/esbuild-markdown-demo#readme",
+  "dependencies": {
+    "@types/react": "^17.0.11",
+    "@types/react-dom": "^17.0.7",
+    "esbuild": "^0.12.8",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.3.2"
+  }
+}
